@@ -212,3 +212,53 @@ This is main section
 /* ================================================================== 
 This is footer section 
 ================================================================== */
+footer {
+  color: black;
+  padding: 40px 0;
+}
+.footer__wrap {
+  display: grid;
+  grid-row-gap: 20px;
+}
+.single__footer-card h1 {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.single__footer-card p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.social-icon ul {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon ul li a {
+  background-color: #343434;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.footer-link a {
+  color: #27292c;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.footer-link a:hover {
+  color: #27292ccb;
+}
+small {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+}
+small a {
+  font-weight: bold;
+  font-size: 1rem;
+}
