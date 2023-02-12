@@ -46,6 +46,20 @@ Tablet
     justify-content: space-between;
     gap: 40px;
   }
+  .discount__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .discount__product,
+  .discount__desc {
+    width: 49%;
+  }
+  .order-one {
+    order: 1;
+    display: flex;
+    justify-content: end;
+  }
 }
 /* ========================================
 Desktop
@@ -110,6 +124,16 @@ Desktop
   }
   .food__card:last-child {
     grid-column: 9 / span 4;
+  }
+  .discount__desc h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .discount__product img {
+    width: 80%;
+  }
+  .discount__btn {
+    margin-top: 45px;
   }
 }
 /* ========================================
